@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { PDFDocument } from 'pdf-lib';
-
-export const PdfToImageTool: React.FC = () => {
+export const ImageToPdfTool: React.FC = () => {
   const [files, setFiles] = useState<File[]>([]);
   const [loading, setLoading] = useState(false);
 
