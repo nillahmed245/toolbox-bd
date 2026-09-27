@@ -23,7 +23,7 @@ import { ImageCropperTool } from '../components/tools/ImageCropperTool';
 import { AgeCalculatorTool } from '../components/tools/AgeCalculatorTool';
 import { WordCounterTool } from '../components/tools/WordCounterTool';
 import { TextCaseConverterTool } from '../components/tools/TextCaseConverterTool';
-import { PdfToImageTool } from '../components/tools/PdfToImageTool';
+import { ImageToPdfTool } from '../components/tools/PdfToImageTool';
 import { UnitConverterTool } from '../components/tools/UnitConverterTool';
 import { useToast } from '../context/ToastContext';
 
