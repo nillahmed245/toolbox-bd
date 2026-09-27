@@ -33,7 +33,7 @@ jobs:
           sed -i "s/return {/return { base: '\/toolbox-bd\/',/" vite.config.ts
 
       - name: Install dependencies
-        run: npm install
+        run: npm install --legacy-peer-deps
 
       - name: Build
         run: npm run build
