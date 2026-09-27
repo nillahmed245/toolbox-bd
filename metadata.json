@@ -1,0 +1,6 @@
+{
+  "name": "ToolBox BD - Free Online Productivity & Media Tools",
+  "description": "Fast, private, mobile-first suite of free online browser tools: Image Compressor, Resizer, Cropper, QR Code Generator, Word Counter, PDF tools & Calculators.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

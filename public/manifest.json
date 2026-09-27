@@ -1,0 +1,33 @@
+{
+  "id": "/",
+  "name": "ToolBox BD – Free Fast Online Tools",
+  "short_name": "ToolBox BD",
+  "description": "Fast, free, and privacy-focused online tools: Image Compressor, Resizer, Cropper, QR Code Generator, Word Counter, PDF utilities & Calculators.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "categories": ["utilities", "productivity", "photo"],
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
