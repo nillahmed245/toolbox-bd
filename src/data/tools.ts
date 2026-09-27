@@ -326,6 +326,33 @@ export const TOOLS: ToolItem[] = [
     metaKeywords: ['image to pdf', 'convert jpg to pdf', 'combine pictures into pdf', 'photo to pdf converter free']
   },
   {
+  id: 'merge-pdf',
+  name: 'Merge PDF',
+  tagline: 'Combine multiple PDF files into one PDF document',
+  description: 'Merge two or more PDF files into a single PDF document directly in your browser.',
+  category: 'pdf',
+  categoryName: 'PDF Utilities',
+  iconName: 'FileCheck',
+  featured: true,
+  popular: true,
+  browserOnly: true,
+  processingTime: 'Fast',
+  features: [
+    'Merge multiple PDF files into one',
+    'Works directly in your browser',
+    'No server upload or storage',
+    'Download the merged PDF instantly'
+  ],
+  howToUse: [
+    { step: 'Select PDF files', detail: 'Choose two or more PDF files from your device.' },
+    { step: 'Merge files', detail: 'Click the Merge PDF button to combine the selected files.' },
+    { step: 'Download PDF', detail: 'Download your merged PDF file.' }
+  ],
+  faqs: [
+    { question: 'Are my PDF files uploaded to a server?', answer: 'No. The PDF files are processed directly in your browser.' }
+  ],
+  metaKeywords: ['merge pdf', 'combine pdf', 'pdf merger', 'merge pdf online']
+},
     id: 'pdf-to-image',
     name: 'PDF to Image',
     tagline: 'Extract PDF pages and convert them into high-res JPG or PNG images',
