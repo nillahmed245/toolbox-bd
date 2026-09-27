@@ -27,6 +27,8 @@ import { PdfToImageTool } from '../components/tools/PdfToImageTool';
 import { UnitConverterTool } from '../components/tools/UnitConverterTool';
 import { useToast } from '../context/ToastContext';
 
+import PDFPage from './PDFPage';
+
 interface ToolPageProps {
   tool: ToolItem;
   onNavigate: (route: string) => void;
@@ -182,6 +184,8 @@ export const ToolPage: React.FC<ToolPageProps> = ({
           <WordCounterTool />
         ) : tool.id === 'text-case-converter' ? (
           <TextCaseConverterTool />
+      ) : tool.id === 'merge-pdf' ? (
+  <PDFPage />
         ) : tool.id === 'pdf-to-image' ? (
           <PdfToImageTool />
         ) : tool.id === 'unit-converter' ? (
