@@ -15,6 +15,7 @@ import { AboutPage } from './pages/AboutPage';
 import { ContactPage } from './pages/ContactPage';
 import { PrivacyPage } from './pages/PrivacyPage';
 import { TermsPage } from './pages/TermsPage';
+import PDFPage from './pages/PDFPage';
 import { TOOLS, CATEGORIES, getToolById } from './data/tools';
 import { ToolCategory } from './types';
 import { ToastProvider, useToast } from './context/ToastContext';
@@ -182,7 +183,9 @@ function AppContent() {
       metaDesc.setAttribute('content', desc);
     }
   }, [currentRoute]);
-
+if (currentRoute === '#/pdf') {
+  return <PDFPage />;
+}
   // Route dispatcher
   const renderCurrentPage = () => {
     if (currentRoute.startsWith('#/tool/')) {
