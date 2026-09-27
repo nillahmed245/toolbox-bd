@@ -353,6 +353,7 @@ export const TOOLS: ToolItem[] = [
   ],
   metaKeywords: ['merge pdf', 'combine pdf', 'pdf merger', 'merge pdf online']
 },
+  {
     id: 'pdf-to-image',
     name: 'PDF to Image',
     tagline: 'Extract PDF pages and convert them into high-res JPG or PNG images',
