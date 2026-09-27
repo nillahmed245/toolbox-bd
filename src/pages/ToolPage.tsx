@@ -184,6 +184,8 @@ export const ToolPage: React.FC<ToolPageProps> = ({
           <WordCounterTool />
         ) : tool.id === 'text-case-converter' ? (
           <TextCaseConverterTool />
+      ) : tool.id === 'image-to-pdf' ? (
+  <ImageToPdfTool />
       ) : tool.id === 'merge-pdf' ? (
   <PDFPage />
         ) : tool.id === 'pdf-to-image' ? (
